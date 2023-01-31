@@ -5,7 +5,7 @@
 
 	git clone https://github.com/trevor-arthur/shodan-cli
 
-	echo "<your_shodan_api_key>" > ./shodan-cli/cmd/shodan/.env
+	echo "SHODAN_API_KEY=<your_shodan_api_key>" > ./shodan-cli/cmd/shodan/.env
 
 	cd ./shodan-cli/cmd/shodan && go build -o shodan-cli
 
